@@ -136,3 +136,15 @@ body {
   transform: rotateX(10deg) rotateY(0deg);
   color: rgb(0, 214, 0);
 }
+
+.line1 {
+  position: absolute;
+  top: 27px;
+  left: -51px;
+  opacity: 0.1;
+  transition: opacity 0.3s;
+}
+
+.switch input:checked + .toggle + .line1 {
+  opacity: 1;
+}
